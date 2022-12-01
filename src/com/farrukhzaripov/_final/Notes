@@ -3,3 +3,7 @@ Final:
 --> We mark variables as final when we know the value of the variable should not be changed once the initial value is set.
 --> by marking class final, you are preventing users to create subclasses from your class
 --> Marking methods final you are preventing them from being overwritten.
+--> initialization blocks are called before any none static methods including the constructors
+   static {
+        System.out.println("2nd initialization block called");
+    }
